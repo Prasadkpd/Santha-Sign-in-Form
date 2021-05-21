@@ -1,0 +1,76 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title>Sign Up Form</title>
+	 <meta charset="UTF-8">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<link rel="stylesheet"   href="style.css">
+	 <script src="https://kit.fontawesome.com/c32bb29bee.js" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+ </head>
+ <body>
+ <div class="container">
+ 	<h2>Say Hello!</h2>
+ 	<form id="form" class="form">
+		 <div class="form-control">
+				 <label>Your Name</label>
+			 <br>
+			 <input type="text" placeholder="Enter Your name" id="username">
+			  <i class="fas fa-check-circle"></i>
+			 <div class="error">
+				 <i class="fas fa-exclamation-circle"></i>
+				 <small>Error Message</small>
+			 </div>
+		 </div>
+			<br>
+			<div class="form-control">
+				 <label>Email</label>
+				 <br>
+				 <input type="email" placeholder="Enter your email address" id="email">
+				 <i class="fas fa-check-circle"></i>
+				 <div class="error">
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error Message</small>
+				</div>
+			</div>
+			<br>
+		<div class="form-control">
+			
+			 <label >Needed Services</label><br>
+			<label class="selectdiv">
+				<select>
+					<option class="select">Choose Services</option>
+					<option>Service 1</option>
+					<option>Service 2</option>
+					<option>Service 3</option>
+				</select>
+			</label>
+		</div>
+		<br><br><br>
+		<div class="form-control">
+			
+			<label >Budget</label><br>
+			<label class="selectdiv">
+				<select>
+					<option class="select">Select Budjet</option>
+					<option>Service 1</option>
+					<option>Service 2</option>
+					<option>Service 3</option>
+				</select>
+			</label>
+		</div>
+		<br><br><br>
+		<div class="form-control">
+			<label >Message</label>
+			
+			<input type="text" class="message" placeholder="Your Message Here">
+		</div>
+		<br><br>
+		<button>Submit</button>
+		
+ 	</form>
+ </div>
+ </body>
+ </html>

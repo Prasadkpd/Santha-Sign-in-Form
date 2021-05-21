@@ -1,0 +1,140 @@
+ body{
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: sans-serif;
+ 	background: linear-gradient(to right, #65dafa, #cb58f8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1.5%;
+}
+
+ .container{
+	max-height: 900px;
+	width: 400px;
+ 	padding: 0.5rem;
+ 	background: rgba(243, 241, 241, 0.8);
+ 	box-sizing: border-box;
+ 	box-shadow: 0 16px 26px rgba(0,0,0,.5);
+ 	border-radius: 10px;
+ 	text-align: center;
+	
+
+ } 
+ .container h2{
+ 	color:black;
+ 	font-family: cursive;
+ 	font-size: 2rem;
+ 	font-weight: bolder;
+ }
+ .form-control input{
+ 	width: 72%;
+ 	padding: .8rem;
+ 	border:none;
+	margin-left: 4%;
+	outline-style: none;
+	border-radius: 10px;
+	
+}
+ button{
+ 	width: 70%;
+ 	padding: 4%;
+	color: white;
+	font-weight: bold; 
+ 	background:linear-gradient(to right,#cb58f8,#65dafa);
+ 	border:none; 
+ 	border-radius: 20px;
+	outline: none;
+ }
+
+ .selectdiv {
+	position: relative;	
+	width: 80%;
+	
+ }
+  
+ 
+  
+  select::-ms-expand {
+	   display: none;
+  }
+  
+  .selectdiv:after {
+	content: '<>';
+	font: 17px "Consolas", monospace;
+	color: #333;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	right: 13px;	
+	top: 13px;
+	padding: 0 0 2px;
+	outline: none;
+	border: none;
+	/*left line */
+	
+	position: absolute;
+	pointer-events: none;
+  }
+  
+  .selectdiv select {
+	
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	display: block;
+	width: 100%;
+	max-width: 320px;
+	float: right;
+	padding: 0.8rem;
+	font-size: 16px;
+	color: #333;
+	background-color: #ffffff;
+	background-image: none;
+	border: none;
+	-ms-word-break: normal;
+	word-break: normal;
+	outline: none;
+	border-radius: 10px;
+  }
+  .container i{
+	position: relative;	
+	float: right;
+	margin-top: 3%;
+	overflow:auto;
+	right: 50px;
+ }
+ i.fa-check-circle{
+	 visibility: hidden;
+ }
+
+ label{
+	float: left;
+	margin-left: 10%;
+}
+input.message{
+	border-radius: 10px;
+	padding:0.8rem;
+	padding-bottom: 10%;
+	width: 72%;
+	margin-left: auto;
+}
+.error{
+	text-align: left;
+	margin-left: 13%;
+	color:#e74c3c; 
+	visibility:hidden;
+}
+.error i{
+	position: relative;
+	float: left;
+	bottom:8px;
+	left: 0.1px;
+	color: #e74c3c;
+}
+
+form.input.success i.fa-check-circle{
+	visibility: visible;
+	color:#2ecc71;
+}
